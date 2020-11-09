@@ -45,6 +45,6 @@ header:
       ko      : &KO       깃허브
       ko-KR   : *KO
       # @end locale config
-    url: aelleek.github.io
+    url: https://github.com/Aelleek
 
     
