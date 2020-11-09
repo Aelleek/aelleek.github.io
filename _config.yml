@@ -189,7 +189,7 @@ exclude:
   - LICENSE
   - README.md
   - gulpfile.js
-  - jekyll-text-theme.gemspec
+  - jekyll-text-theme.gemspece
 
 defaults:
   - scope:

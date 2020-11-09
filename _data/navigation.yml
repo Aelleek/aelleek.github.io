@@ -21,7 +21,7 @@ header:
       ko      : &KO       문서
       ko-KR   : *KO
       # @end locale config
-    url: /archive.html
+    url: /documents/documents.html
 
   - titles:
       # @start locale config
@@ -48,3 +48,23 @@ header:
     url: https://github.com/Aelleek
 
     
+study:
+  - title: Blog
+    children:
+      - title: GitHub Blog
+        url:   /documents/GitHub Blog/Start GitHub Blog
+      - title: MarkDown
+        url:   /documents/MarkDown/
+  - title: Programming
+    children:
+      - title: NodeJS
+        url:   /documents/NodeJS/
+
+
+
+
+
+
+
+
+
