@@ -31,3 +31,35 @@ tags: GitHub Blog
 - 홈 화면에 무엇을 넣을지
 - about 화면에 무엇을 넣을지 
 - 어떻게 넣을지
+
+
+
+jekyll 디렉토리 구조
+
+includes : 블로그 삽입 html
+layouts : 블로그 레이아웃 html
+posts : 블로그 컨텐츠들
+sass : css 파일들
+site : 지킬로 빌드된 블로그 내용들
+assets : 이미지파일, js파일, css파일들
+config.yml : 블로그 생성에 필요한 config가 적힌 파일들
+
+
+
+https://devyurim.github.io/development%20environment/github%20blog/2018/01/01/blog-1.html
+
+
+
+Ruby 설치 및 실행 방법
+
+$ sudo gem install jekyll
+
+$ sudo bundle install
+
+
+jekyll 초기화 및 실행
+
+$ jekyll new ./
+
+$ jekyll build
+$ jekyll serve --watch
