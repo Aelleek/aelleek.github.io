@@ -188,10 +188,7 @@ _posts 라는 특별한 폴더에 있기 때문에 MarkDown 폴더에서부터 a
 3. [동일 파일 내 문단 이동](#syntax)
 
 
-## 7. 코드 블록( Code Blocks )
-
-
-## 8. 인용 상자( BlockQuotes )
+## 7. 인용 상자( BlockQuotes )
 
 <div class="blue-div">
 글을 인용할 경우 사용한다. 중복 형태로도 사용할 수 있다.
@@ -208,21 +205,73 @@ _posts 라는 특별한 폴더에 있기 때문에 MarkDown 폴더에서부터 a
 >>> 오늘도 모두가 열심히 사는것 같아서 나만큼은 쓸모없게 살아야 겠다고 다짐했다.
 
 
-## 9. 테이블( Tables )
+## 8. 테이블( Tables )
 
 <div class="blue-div">
-    
-    
+표를 만들고 싶을 때 사용한다.
+
+- 표의 라인 단위로 생각하면서 구분자(|)로 열을 구분해주면 대충 그려도 제대로 들어간다..
+- 헤더(머리글)을 분리하고 싶은 경우, |---|---|---| 식으로 사용하면 된다.
+- 정렬이 필요한 경우 콜론(:) 기호를 사용하여 구분선(---)의 왼쪽, 오른쪽, 양쪽에 배치한다.
+- 표 내부에서는 줄바꿈을 지원하지 않기 때문에, <br>을 직접 입력해야 한다.
 </div>
 
+```Markdown
+| 일반 정렬 | 왼쪽 정렬 | 중앙 정렬 | 오른쪽 정렬 |
+|---|:---|:---:|---:|
+|정|렬|확|인|
+```
 
-## 10. 체크 박스( Task Lists )
+| 일반 정렬 | 왼쪽 정렬 | 중앙 정렬 | 오른쪽 정렬 |
+|---|:---|:---:|---:|
+|정|렬|확|인|
 
 
-## 11. 인라인 코드( Inline code )
+## 9. 코드 블록( Code Blocks )
+
+<div class="blue-div">
+글 내용에 프로그래밍 코드를 포함하고 싶다면 코드 블록을 사용하면 된다.
+코드 블록을 사용하면 Syntax Highlighting이 된다.
+</div>
+<div class="yellow-div">
+Syntax Highlighting이 지원되는 언어는 
+
+Java (java), JavaScript (javascript), Python (python), C++ (cpp)
+HTML, XML (html), CSS (css), JSON (json), SQL (sql)
+
+Bash (bash), C# (cs), Diff (diff), HTTP (http), Ini (ini)
+PHP (php), Perl (perl) ,Ruby (ruby)
+등이 있다.    
+</div>
+
+```Markdown
+'''java
+class Test {
+    public static void main(String[] args) {
+        System.out.pritnln("hello world");
+    }
+}
+'''
+```
+
+```java
+class Test {
+    public static void main(String[] args) {
+        System.out.pritnln("hello world");
+    }
+}
+```
 
 
-## 12. 수평선 ( hr )
+## 10. 인라인 블록 ( Inline code)
 
+<div class="blue-div">
+문단 중간에 프로그래밍 코드를 넣을 수 있다.
+</div>
 
-## 13. 탈출 문자( Backslash Escapes )
+```Markdown
+문단 중간에 `printf("Hello, World!");` 이런식으로 프로그래밍 코드를 넣을 수 있다.
+```
+
+문단 중간에 `printf("Hello, World!");` 이런식으로 프로그래밍 코드를 넣을 수 있다.
+
