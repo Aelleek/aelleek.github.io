@@ -118,7 +118,25 @@ Ordered
 1. 원본 이미지 넣기.
 2. 사이즈를 조절하여 이미지를 넣기.
 3. 이미지를 넣은 후 링크 걸기.
+</div>
 
+```Markdown
+![테스트 이미지1](assets/testImg.jpg)
+<img src="assets/testImg2.jpeg" width="300" height="300">
+[![테스트 이미지3](assets/testImg3.jpeg)](aelleek@github.io)
+```
+
+<div class="yellow-div">
+teXt Jekyll 테마에서 제공하는 방법을 사용하면 img 태그를 사용하지 않아도 사이즈를 조절 할 수 있다.
+</div>
+
+```Markdown
+![테스트 이미지2](assets/testImg2.jpg){:width:"800px" height="500px"}
+![테스트 이미지3](assets/testImg3.jpeg){:width:"200px" height="200px"}
+![테스트 이미지](assets/testImg.jpeg){:width:"400px" height="400px"}
+```
+
+<div class="blue-div">
 - 이미지의 파일경로.
 image의 파일경로는 작성한 파일이 위치한 폴더부터 접근한다. 또는 상위의 폴더부터 접근한다?
 markdown syntax 파일은 MarkDown/_posts 폴더에 있고 이미지는 MarkDown/assets 폴더에 있는데
@@ -129,35 +147,12 @@ _posts 라는 특별한 폴더에 있기 때문에 MarkDown 폴더에서부터 a
 
 - 이미지의 위치.
 이미지를 연속으로 출력하는 경우, 두 이미지의 width 값이 100%가 넘지 않는다면 같은 라인에 출력된다.
-CSS는 별도...?
+원하는 CSS가 있다면 별도로 지정해주어야 한다.    
 </div>
-
-```Markdown
-![테스트 이미지1](assets/testImg.jpg)
-<img src="assets/testImg2.jpeg" width="300" height="300">
-[![테스트 이미지3](assets/testImg3.jpeg)](aelleek@github.io)
-```
 
 ![테스트 이미지1](assets/testImg.jpeg)
 <img src="assets/testImg2.jpg" width="300" height="300">
-[![테스트 이미지3](assets/testImg3.jpeg)](https://aelleek.github.io)
-
-<div class="yellow-div">
-teXt Jekyll 테마에서 제공하는 방법을 사용하면 img 태그를 사용하지 않아도 사이즈를 조절 할 수 있다.
-
-</div>
-
-
-
-```Markdown
-![테스트 이미지2](assets/testImg2.jpg){:width:"800px" height="500px"}
-![테스트 이미지3](assets/testImg3.jpeg){:width:"200px" height="200px"}
-![테스트 이미지](assets/testImg.jpeg){:width:"400px" height="400px"}
-```
-
-![테스트 이미지2](assets/testImg2.jpg){:width:"800px" height="500px"}
-![테스트 이미지3](assets/testImg3.jpeg){:width:"200px" height="200px"}
-![테스트 이미지](assets/testImg.jpeg){:width:"400px" height="400px"}
+[![테스트 이미지3](assets/testImg3.jpeg){:width:"300px" height="300px"}](https://aelleek.github.io)
 
 
 ## 6. 하이퍼 링크( Links )
@@ -197,6 +192,7 @@ teXt Jekyll 테마에서 제공하는 방법을 사용하면 img 태그를 사�
 
 
 ## 8. 인용 상자( BlockQuotes )
+
 <div class="blue-div">
 글을 인용할 경우 사용한다. 중복 형태로도 사용할 수 있다.
 </div>
@@ -213,6 +209,11 @@ teXt Jekyll 테마에서 제공하는 방법을 사용하면 img 태그를 사�
 
 
 ## 9. 테이블( Tables )
+
+<div class="blue-div">
+    
+    
+</div>
 
 
 ## 10. 체크 박스( Task Lists )
