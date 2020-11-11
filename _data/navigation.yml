@@ -68,7 +68,7 @@ markdown:
         url:   /documents/documents.html 
   - title: MarkDown
     children:
-      - title: MarkDown 이란
+      - title: Introduction
         url:   /documents/MarkDown/markdown
       - title: Syntax
         url:   /documents/MarkDown/markdown syntax
