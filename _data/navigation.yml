@@ -59,6 +59,8 @@ study:
     children:
       - title: NodeJS
         url:   /documents/NodeJS/start-nodejs
+      - title: Python
+        url:   /documents/Python/
 
 
 markdown:
