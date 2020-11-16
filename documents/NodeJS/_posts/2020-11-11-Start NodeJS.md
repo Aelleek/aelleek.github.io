@@ -49,5 +49,49 @@ libuv 라이브러리는 노드의 특성인 이벤트 기반, 논 블로킹 I/O
 </div>    
 
 
+## 이벤트 루프
+<div class="blue-div">
+이벤트 루프는 이벤트 발생 시 호출할 콜백 함수들을 관리하고, 호출된 콜백 함수의 실행 순서를 결정하는 역할을 한다. 노드가 종료될 때까지 이벤트 처리를 위한 작어비을 반복하므로 루프라고 부른다.
+
+노드는 자바스크립트 코드의 맨 위부터 한 줄씩 실행하고, 함수 호출 부분이 있다면 호출한 함수를 호출스택(call stack)에 넣는다.    
+</div>
+```Javascript
+function first(){
+    second(); console.log("first");
+}
+function second(){
+    third(); console.log("second");
+}
+function third(){
+    console.log("third");
+}
+first();
+```
+<div class="blue-div">
+위와 같은 자바스크립트 파일을 실행시켰을 때, first() - second() - third() 순서로 호출된다.
+그리고 호출된 순서와 반대로 실행이 완료된다.
+호출 스택을 그려보면 다음과 같은 형태로 스택에 함수가 쌓인다.
+</div>
+
+| third() |
+| second()|
+| first()|
+| anonymous|
+
+<dir class="blue-div">
+anonymous 함수는 처음 실행 시의 전역 컨텍스트(global context)를 의미하고 컨텍스트는 함수가 호출되었을 때 생성되는 환경을 의미한다.
+자바스크립트 코드는 실행시 기본적으로 전역 컨텍스트 안에서 돌아간다고 볼 수 있다.  
+
+</dir>
+
+
+
+
+
+
+
+
+
+
 
 
