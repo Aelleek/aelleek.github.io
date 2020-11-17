@@ -91,6 +91,8 @@ nodejs:
     children:
       - title: Callback Function
         url:   /documents/NodeJS/Callback Function
+      - title: Promise
+        url:   /documents/NodeJS/Promise
 
 
 
