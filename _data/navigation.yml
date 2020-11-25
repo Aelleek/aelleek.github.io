@@ -93,6 +93,8 @@ nodejs:
         url:   /documents/NodeJS/Callback Function
       - title: Promise
         url:   /documents/NodeJS/Promise
+      - title: Prototype
+        url:   /documents/NodeJS/Prototype
 
 
 

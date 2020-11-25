@@ -1,0 +1,12 @@
+---
+layout: article
+title: Syntax - Promise
+permalink: /documents/NodeJS/Promise
+sidebar:
+  nav: nodejs
+aside:
+    toc: false
+tags: NodeJS 
+---
+
+## Prototype
