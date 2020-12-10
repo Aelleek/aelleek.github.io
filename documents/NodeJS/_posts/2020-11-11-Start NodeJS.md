@@ -78,11 +78,11 @@ first();
 | first()|
 | anonymous|
 
-<dir class="blue-div">
+<div class="blue-div">
 anonymous 함수는 처음 실행 시의 전역 컨텍스트(global context)를 의미하고 컨텍스트는 함수가 호출되었을 때 생성되는 환경을 의미한다.
 자바스크립트 코드는 실행시 기본적으로 전역 컨텍스트 안에서 돌아간다고 볼 수 있다.  
 
-</dir>
+</div>
 
 
 
