@@ -11,5 +11,5 @@ tags: Python
 
 ## Python 란.
 <div class="blue-div">
-파이썬...
+
 </div>
