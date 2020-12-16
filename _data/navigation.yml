@@ -60,7 +60,7 @@ study:
       - title: NodeJS
         url:   /documents/NodeJS/start-nodejs
       - title: Python
-        url:   /documents/Python/
+        url:   /documents/Python/start-python
 
 
 markdown:
@@ -96,6 +96,16 @@ nodejs:
       - title: Prototype
         url:   /documents/NodeJS/Prototype
 
+
+python:
+  - title: 이전
+    children: 
+      - title: Docs
+        url:   /documents/documents.html 
+  - title: Python
+    children:
+      - title: Introduction
+        url:   /documents/Python/start-python
 
 
 
